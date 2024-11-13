@@ -20,8 +20,8 @@ if (CMAKE_SYSTEM_PROCESSOR MATCHES "(aarch64)|(AARCH64)")
     set(package_name hyperscan_aarch64.tar.gz)
 
 else()
-    set(url "https://github.com/intel/hyperscan/archive/refs/tags/v5.4.0.tar.gz")
-    set(url_hash "65e08385038c24470a248f6ff2fa379b")
+    set(url "https://github.com/intel/hyperscan/archive/refs/tags/v5.4.2.tar.gz")
+    set(url_hash "202f4b42f5dd4a7bb2506445e51a33b9")
     set(package_name hyperscan_x86_64.tar.gz)
 endif()
 
