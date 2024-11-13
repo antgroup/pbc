@@ -49,7 +49,7 @@ mkdir -p $HEADER_PATH
 mkdir -p $LIB_PATH
 install -D src/compress-c.h $HEADER_PATH
 install -D ${BUILD_DIR}/src/libpbc.a  ${BUILD_DIR}/src/deps/fse/libpbc_fse.a  ${BUILD_DIR}/src/deps/fsst/libpbc_fsst.a $LIB_PATH
-install -D third-party/install/lib/libzstd.a third-party/install/lib64/libhs.a $LIB_PATH
+install -D third-party/install/lib/libzstd.a third-party/install/lib/libhs.a $LIB_PATH
 
 set +x
 set +e
